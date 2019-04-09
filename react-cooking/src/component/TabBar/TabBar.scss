@@ -1,0 +1,22 @@
+@charset 'UTF-8';
+@import '../../style/minix.scss';
+
+.tabBar{
+  .barActive{
+    margin-top: -1px;
+    border-bottom: 2px solid #ffa6a6 !important;
+    color: #ffa6a6;
+    font-weight:500;
+  }
+}
+
+.tabContent{
+  overflow: hidden;
+}
+
+.barContent{
+  display:inline-block;
+  width:33%;
+  height:300px;
+  @include whiteBg;
+}

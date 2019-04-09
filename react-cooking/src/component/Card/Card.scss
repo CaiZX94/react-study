@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+@import '../../style/minix.scss';
+
+.Card{
+  float: left;
+  margin: 10px 8px;
+  width: 150px;
+  @include whiteBg;
+  border-radius: 5px;
+  .facePic{
+    width: 100%;
+    height: 90px;
+    border-radius: 5px;
+  }
+  .foodName{
+    padding: 10px 0 10px 10px;
+    color: #666;
+    font-size: 16px;
+    @include ellipsis;
+  }
+  .foodPro{
+    margin: 10px 0 10px 10px;
+    color: #666;
+    font-size: 13px;
+    @include moreLineEllipsis;
+    box-sizing: border-box;
+  }
+}

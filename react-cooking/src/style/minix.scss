@@ -1,0 +1,19 @@
+@mixin moreLineEllipsis{ //多行省略
+    -webkit-line-clamp: 5;
+    display: -webkit-box;
+    /* autoprefixer: off*/
+    -webkit-box-orient: vertical; //在webpack3不起效果，-webkit-box-orient:vertical不会被编译,需要加 autoprefixer
+    /* autoprefixer: on*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@mixin ellipsis{ //单行省略
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@mixin whiteBg{
+    background: #fff;
+}

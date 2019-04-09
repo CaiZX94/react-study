@@ -1,0 +1,42 @@
+@charset 'UTF-8';
+
+.MiddleNav{
+  .NavList{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background: #fff;
+    li{
+      display: flex;
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+      p{
+        text-align: center;
+        color: #666;
+        font-size: 15px;
+      }
+      .navIcon{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+      }
+      .bg{
+        background: url('../../assets/image/bg_03.png') no-repeat 0 0;
+        background-size:cover ;
+      }
+      .mb{
+        background: url('../../assets/image/mb_03.png') no-repeat 0 0;
+        background-size:cover ;
+      }
+      .cd{
+        background: url('../../assets/image/cd_03.png') no-repeat 0 0;
+        background-size:cover ;
+      }
+      .dg{
+        background: url('../../assets/image/dg_03.png') no-repeat 0 0;
+        background-size:cover ;
+      }
+    }
+  }
+}

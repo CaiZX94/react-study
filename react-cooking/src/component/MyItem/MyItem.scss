@@ -1,0 +1,28 @@
+@charset 'utf-8';
+
+.MyItem{
+  .item{
+    position: relative;
+    margin-top: 15px;
+    padding: 10px 20px 10px 30px;
+    background: #fff;
+    .icon,.itemName{
+      display: inline;
+    }
+    // .icon{
+    //   font-size: 25px;
+    //   color: rgba(255, 166, 166,1);
+    //   vertical-align: middle;
+    // }
+    .itemName{
+      margin-left: 15px;
+      vertical-align: middle;
+      color: #666;
+    }
+    .rightArrow{
+      position: absolute;
+      top: 15px;;
+      right: 15px;
+    }
+  }
+}

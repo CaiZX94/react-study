@@ -1,0 +1,32 @@
+@charset 'utf-8';
+
+.PersonInfo{
+  padding-top: 50px;
+  .header{
+    padding: 10px;
+    overflow: hidden;
+    background: #fff;
+    .headPic{
+      float: left;
+      margin-right: 15px;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+    .info{
+      float: left;
+      margin-top: 7px;
+      .nickName{
+        color: #333;
+        font-size: 17px;
+      }
+      .label{
+        padding-top: 10px;
+        font-size: 13px;
+        color: #666;
+      }
+    }
+    
+  }
+  
+}

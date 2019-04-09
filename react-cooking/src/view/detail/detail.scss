@@ -1,0 +1,112 @@
+@charset 'UTF-8';
+
+.Detail{
+  background: #fff;
+  .content{
+    padding-top: 50px;
+    .head{
+      display: flex;
+      padding: 15px 10px;
+      overflow: hidden;
+      .pic{
+        display: flex;
+        flex: 1;
+        margin: 0 10px 10px 0;
+        width: 100px;
+        height: 115px;
+        border-radius: 5px;
+      }
+      .headInfo{
+        display: flex;
+        flex: 2;
+        flex-direction: column;
+        .name{
+          padding-bottom: 3px;
+          font-weight: bold;
+          border-bottom: 1px solid #f1f1f1;
+        }
+        .info{
+          padding: 5px 0 3px;
+          line-height: 16px;
+          font-size: 12px;
+          color: #666
+        }
+      }
+    }
+    .contentInfo{
+      padding: 0 20px 20px 20px;
+      div{
+        padding-top: 5px;
+        line-height: 24px;
+        font-size: 14px;
+        color: #333;
+        border-top: 1px solid #f1f1f1;
+      }
+    }
+    .prepare{
+      padding: 10px 20px;
+      .labelName{
+        color:#52c41a;
+        font-size: 14px;
+        font-weight: normal;
+      }
+      .table{
+        margin: 5px 0;
+        padding: 0 10px;
+        width: 100%;
+        border: 1px solid #eee;
+        border-radius: 3px;
+        box-sizing: border-box;
+        li{
+          padding: 5px 0;
+          border-bottom: 1px solid #eee;
+        }
+        li:nth-last-child(1){
+          border-bottom: none;
+        }
+        .tabelHead,.tabelItem{
+          display: flex;
+          p{
+            display: flex;
+            flex: 1;
+          }
+        }
+        .tabelItem{
+          color: #666;
+          font-size: 14px;
+        }
+      }
+      .process{
+        li{
+          display: flex;
+          padding: 10px;
+          border-bottom: 1px solid #f1f1f1;
+          img{
+            display: flex;
+            flex:1;
+            padding-right: 10px;
+            width: 100px;
+            height: 100px;
+          }
+          .processContent{
+            display: flex;
+            flex:2;
+            flex-direction: column;
+            font-size: 14px;
+            color: #666;
+            .processNum{
+              margin-bottom: 15px;
+              width:25px;
+              height: 25px;
+              border:1px solid #FFA6A6;
+              border-radius: 50%;
+              text-align: center;
+              line-height: 25px;
+              color: #FFA6A6;
+            }
+          }
+        }
+      }
+    }
+  }
+}

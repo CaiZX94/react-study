@@ -1,0 +1,46 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body{
+  background: #f6f6f6
+}
+a{
+  text-decoration-line: none;
+  color: #333;
+}
+.active{
+  color: #ffa6a6
+}
+
+// 屏幕自适应
+@media  screen and (min-width:1024px){
+  .Header,.content,.cardList{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 740px;
+  }
+  .Footer{
+    @media screen and (min-width:1024px) {
+      .NavBar{
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 740px;
+      } 
+    }
+  }
+  .MiddleNav{
+    @media screen and (min-width:1024px) {
+      .NavList{
+        left: 0;
+          right: 0;
+          margin: 0 auto;
+          width: 740px;
+      }
+    }
+  }
+}

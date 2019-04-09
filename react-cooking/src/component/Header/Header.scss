@@ -1,0 +1,25 @@
+@charset 'UTF-8';
+
+.Header{
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background: rgba(255, 166, 166,1);
+  color: #fff;
+  .left_icon,.right_icon,.title{
+    position: absolute;
+    top: 12px;
+    font-size: 25px;
+  }
+  .left_icon{
+    left: 20px;
+  }
+  .right_icon{
+    right: 20px;
+  }
+  .title{
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 17px;
+  }
+}
