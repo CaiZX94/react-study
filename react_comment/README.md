@@ -1,5 +1,5 @@
-
-#运行npm install，安装依赖
+﻿
+#运行yarn install，安装依赖
 
 #运行yarn start
 
