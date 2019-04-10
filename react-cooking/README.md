@@ -7,6 +7,9 @@
 
 #项目调用了第三方数据平台的接口，因为接口调用有次数限制，所以可以自己到该平台注册申请一个appkey，https://www.jisuapi.com/。
 
+
+#项目截图
+
 ![image](https://github.com/CaiZX94/react-study/raw/master/react-cooking/static/1554862016(1).jpg)
 ![image](https://github.com/CaiZX94/react-study/raw/master/react-cooking/static/1554862049(1).jpg)
 ![image](https://github.com/CaiZX94/react-study/raw/master/react-cooking/static/1554862085(1).jpg)
