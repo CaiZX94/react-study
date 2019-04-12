@@ -1,0 +1,46 @@
+export default {
+  menus:[
+    {key:'/app/index/index',title:'首页',icon:'mobile',component:'Index'},
+    {
+      key:'/app/ui',title:'UI',icon:'scan',
+      subs:[
+        {key:'/app/ui/button',title:'按钮',component:'Buttons'},
+        {key:'/app/ui/icon',title:'图标',component:'Icons'},
+        {key:'/app/ui/loading',title:'加载中',component:'Loadings'},
+        {key:'/app/ui/modal',title:'对话框',component:'Modals'},
+        {key:'/app/ui/reminds',title:'通知提醒框',component:'Reminds'},
+        {key:'/app/ui/tabs',title:'标签页',component:'Tabs'},
+        {key:'/app/ui/banners',title:'轮播图',component:'Banners'},
+      ]
+    },
+    {
+      key:'/app/animation',title:'动画',icon:'rocket',
+      subs:[
+        {key:'/app/animation/baseAnimation',title:'基础动画',component:'BaseAnimations'},
+        {key:'/app/animation/exampleAnimation',title:'动画案例',component:'ExampleAnimations'},
+      ]
+    },
+    {
+      key:'/app/table',title:'表格',icon:'rocket',
+      subs:[
+        {key:'/app/table/baseTable',title:'基础表格',component:'BaseTables'},
+        {key:'/app/table/advancedTable',title:'高级表格',component:'AdvancedTables'},
+        {key:'/app/table/asynTable',title:'异步表格',component:'AsynTables'},
+      ]
+    },
+    {
+      key:'/app/form',title:'表单',icon:'edit',
+      subs:[
+        {key:'/app/form/baseForm',title:'基础表单',component:'BaseForms'},
+      ]
+    },
+    {
+      key:'/app/charts',title:'图表',icon:'area-chart',
+      subs:[
+        {key:'/app/charts/echarts',title:'echarts',component:'Echarts'},
+        {key:'/app/charts/highcharts',title:'highcharts',component:'Highcharts'},
+      ]
+    },
+  ],
+  others: [] // 非菜单相关路由
+}

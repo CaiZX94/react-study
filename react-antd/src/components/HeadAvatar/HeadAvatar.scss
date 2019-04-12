@@ -1,0 +1,40 @@
+@charset 'utf-8';
+
+.ant-layout-header{
+  .ant-menu{
+    float: right;
+    background: none;
+    border-bottom: none;
+    .ant-menu-submenu-title{
+      padding: 9px 20px;
+    }
+    .ant-menu-item{
+      line-height: 18px;
+      padding: 21px 20px;
+    }
+    .ant-menu-item,.ant-menu-submenu {
+      float: right !important;
+      display: inline-block !important;
+    }
+    .ant-menu-overflowed-submenu{
+      display: none !important;
+    }
+    .anticon-bell{
+      color: #fff;
+      font-size: 20px;
+    }
+  }
+  .ant-menu-horizontal > .ant-menu-item:hover, 
+  .ant-menu-horizontal > .ant-menu-submenu:hover, 
+  .ant-menu-horizontal > .ant-menu-item-active, 
+  .ant-menu-horizontal > .ant-menu-submenu-active, 
+  .ant-menu-horizontal > .ant-menu-item-open, 
+  .ant-menu-horizontal > .ant-menu-submenu-open, 
+  .ant-menu-horizontal > .ant-menu-item-selected, 
+  .ant-menu-horizontal > .ant-menu-submenu-selected {
+    color: #333;
+    border-bottom: 2px solid #333;
+  }
+}
+
+

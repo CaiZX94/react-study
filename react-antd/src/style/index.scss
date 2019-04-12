@@ -1,0 +1,36 @@
+@charset 'utf-8';
+
+@import './base.scss';
+@import './header.scss';
+@import './sider.scss';
+@import './content.scss';
+
+
+
+
+#root{
+  height: 100%;
+  .wrap{
+    height: 100%;
+    .ant-layout{
+      height: 100%;
+      .ant-layout-header {
+        .logo {
+          float: left;
+          margin-right: 100px;
+          width: 100px;
+          text-align: center;
+          font-size: 20px;
+        }
+      }
+      .ant-layout-sider{
+        overflow-y:auto; 
+        // background: #313653;
+        background: #fff;
+      }
+    }
+    .mainContent{
+      padding: 20px;
+    }
+  }
+}
